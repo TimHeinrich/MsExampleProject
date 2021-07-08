@@ -10,6 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            TestMe(1, 2);
+        }
+
+        static int TestMe(int a, int b) 
+        {
+            return a + b;
         }
     }
 }
